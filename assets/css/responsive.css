@@ -1,0 +1,292 @@
+@media (min-width: 992px) {
+
+    /**** Menu Dropdown On Hover ***/
+    .dropdown:hover > .dropdown-menu {
+        display: block;
+    }
+    .dropdown>.dropdown-toggle:active {
+        /*Without this, clicking will make it sticky*/
+        pointer-events: none;
+    }
+
+}
+
+@media (max-width: 1199.98px) {
+    .bp_text{
+        font-size:27px;
+        padding: 20px 0 0 15px;
+        line-height: 34px;
+    }
+    .r_text{
+        font-size:24px;
+    }
+}
+
+@media screen and (max-width: 991.98px) {
+    .landing-page .header {
+        height: auto;
+        min-height: 100vh;
+    }
+    .landing-page .header .container {
+        padding-bottom: 70px;
+    }
+    .bp_text{
+        font-size:22px;
+        padding: 26px 0 0 10px;
+        line-height: 28px;
+    }
+    .logo-search .rr-logo {
+        padding: 5px 0 5px 15px;
+    }
+    .r_text {
+        font-size: 20px;
+    }
+    .bg-light{
+        height:auto;
+    }
+    .section_table .container-fluid{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .contact{
+        margin-top: 0;
+    }
+    .contact_us {
+        padding: 7px 5px;
+        display: block;
+        margin-top: 8px;
+    }
+    .btn-outline-succes{
+        margin-right:4px;
+    }
+    .hide{
+        display:none !important;
+    }
+    .additional-menu .form-inline .form-control{
+        width: 190px;
+    }
+}
+
+@media (max-width:767.98px){
+
+    .logo-wrap{
+        display: block;
+        overflow: hidden;
+        margin: 0 auto;
+        width: 200px;
+        width: 345px;
+    }
+    .additional-menu {
+        display: block;
+        margin: 0 auto;
+        width: 345px;
+        float: none;
+        padding-right: 0;
+        padding-left: 15px;
+    }
+    .ser_form,
+    .contact{
+        display: block;
+        overflow: hidden;
+        float: left;
+    }
+    .additional-menu .form-inline .form-control {
+        width: 180px;
+    }
+
+    .resp-tab-item {
+        padding: 11px 70px;
+    }
+
+    .tab_list {
+        width: 16%;
+    }
+
+    .tab_list1 {
+        width: 75%;
+    }
+
+}
+
+@media screen and (max-width: 575.98px) {
+
+    .btn-outline-succes {
+        margin-bottom: 0 !important;
+        margin-right: 4px;
+        margin-top: 0 !important;
+    }
+
+    .link-box img{
+        margin-bottom: 10px;
+    }
+    .copyright-text,
+    .developed-text{
+        text-align: center;
+        font-size: 14px;
+    }
+    .footer-about-content p{
+        font-size: 14px;
+    }
+    .top-footer h3.text-white{
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width:640px){
+
+    .resp-tab-item {
+        padding: 11px 55px;
+    }
+
+    .top-comment-left img {
+        width: 100%;
+    }
+    .bg-primary.breaking-caret{
+        font-size: 11px;
+    }
+    .news-ticker .carousel-item a{
+        font-size: 11px;
+    }
+    .news-ticker .bg-white{
+        height: 33px;
+        display: block;
+        overflow: hidden;
+    }
+    .news-ticker .bg-white .col-9.col-md-9.col-lg-10.pl-md-5.py-2{
+        padding-top: 4px !important;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .fa-facebook,
+    .fa-newspaper-o,
+    .fa-phone-square {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:480px) {
+
+    .bp_text{
+        font-size:20px;
+        padding: 26px 0 0 10px;
+        line-height: 28px;
+    }
+
+    h2.resp-accordion {
+        background: #336699;
+    }
+
+    .sap_tabs{
+        padding-top:0;
+    }
+
+    .resp-tabs-container{
+        padding:10px;
+    }
+
+    ul.resp-tabs-list {
+        display: none;
+    }
+
+    h2.resp-accordion {
+        display: block;
+    }
+
+    .resp-vtabs .resp-tab-content {
+        border: 1px solid #C1C1C1;
+    }
+
+    .resp-accordion-closed {
+        display: none !important;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+
+
+    .logo-wrap{
+        width: 280px;
+    }
+    .logo-search{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .logo-search .rr-logo {
+        padding: 5px;
+        width: 80px;
+    }
+    .bp_text {
+        font-size: 15px;
+        line-height: 22px;
+        padding: 26px 0 0 0px;
+    }
+    .r_text {
+        font-size: 16px;
+    }
+    .additional-menu{
+        width: 280px;
+        padding-left: 10px;
+    }
+    .additional-menu .form-inline .form-control{
+        width: 140px;
+    }
+    .contact_us{
+        font-size: 12px;
+        padding: 10px 5px;
+    }
+    .reponsive-col{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .btn.btn-outline-succes.my-2.my-sm-0.media_btn {
+        padding: 2px 4px;
+    }
+
+    .range-logo img{
+        width: 88px;
+        margin-top: 3px;
+        display: block;
+        height: 73px;
+        overflow: hidden;
+        margin-top: 8px;
+        padding-right: 3px;
+    }
+}
+
+@media (max-width:320px){
+
+    h2.resp-accordion {
+        font-size: 14px;
+        margin: 0 !important;
+        border: 1px solid #fff;
+    }
+
+    .tab_list {
+        width: 44%;
+    }
+
+    .tab_list1 {
+        width: 48%;
+    }
+    .news-ticker .bg-white{
+        height: 32px;
+        display: block;
+        overflow: hidden;
+    }
+    .bg-primary.breaking-caret{
+        font-size: 10px;
+    }
+    .news-ticker .carousel-item a{
+        font-size: 11px;
+    }
+    .small-pad{
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+
+}   
